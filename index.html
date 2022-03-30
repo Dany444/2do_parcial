@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>2do Parcial Avanzada</title>
+        <script src="segundo_parcial.js" type="text/JavaScript"></script>
+        <link href="estilos_2do_parcial.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body><center>
+        <p class="letra_1">Segundo Parcial Parte Práctica</p>
+        <table border="4" width="70%" height="60%">
+        <form name="f_segundo_parcial">
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">Indica el Nombre</p>
+                </td>
+                <td align="center">
+                    <input type="text" name="nombre" class="campo">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">Indica el Apellido Paterno</p>
+                </td>
+                <td align="center">
+                    <input type="text" name="ap" class="campo">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">Indica el Apellido Materno</p>
+                </td>
+                <td align="center">
+                    <input type="text" name="am" class="campo">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">Indica la fecha de nacimiento</p>
+                </td>
+                <td align="center">
+                    <input type="date" name="fecha" class="campo">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">La cuenta de correo es: </p>
+                </td>
+                <td align="center">
+                    <input type="text" name="salida_correo" class="campo" disabled="true" style="background-color: rgb(180, 180, 180);">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td alig="center">
+                    <p class="letra_2">La contraseña es: </p>
+                </td>
+                <td align="center">
+                    <input type="text" name="salida_contrasena" class="campo" disabled="true" style="background-color: rgb(180, 180, 180);">
+                </td>
+            </tr>
+            <tr alig="center">
+                <td align="center">
+                    <input class="boton2" type="Reset" name="b_reinicia" value="Reset">
+                </td>
+                <td align="center">
+                    <input class="boton" type="button" name=b_ejecuta value="Ejecutar" onClick="ejecutar()">
+                </td> 
+            </tr>
+        </form>
+        </table>
+    </center></body>
+</html>
